@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 class DataManager:
-    def __init__(self, db_path='../data/news_db.csv'):
+    def __init__(self, db_path='data/news_db.csv'):
         self.db_path = db_path
         self.ensure_directory()
 
