@@ -53,7 +53,7 @@ The application follows a modular "Data Pipeline" architecture, moving from raw 
 graph LR
     A[FinViz News Stream] -->|Scraper| B(Raw Headlines)
     B -->|Tokenization| C{FinBERT AI}
-    C -->|Inference (GPU)| D[Sentiment Scores]
+    C -->|Inference| D[Sentiment Scores]
     D -->|Aggregation| E[Signal Generation]
     E -->|Backtest| F[Equity Curve]
     D -->|Live Feed| G[Streamlit Dashboard]
