@@ -1,0 +1,23 @@
+# --- Python & Environment ---
+__pycache__/
+*.pyc
+venv/
+env/
+.env
+
+# --- Data & Models ---
+# Crucial: Do not commit large CSVs or Model Binaries to GitHub
+data/
+*.csv
+*.pt
+*.bin
+*.h5
+
+# --- IDEs ---
+.vscode/
+.idea/
+.ipynb_checkpoints/
+
+# --- System ---
+.DS_Store
+Thumbs.db
